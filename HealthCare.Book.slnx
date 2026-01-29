@@ -1,0 +1,109 @@
+<Solution>
+  <!-- Chapter 02: Domain-Driven Design Principles -->
+  <Folder Name="/Chapter02/">
+    <Project Path="Chapter02/AppointmentsApi/AppointmentsApi.csproj" />
+  </Folder>
+
+  <!-- Chapter 03: Synchronous Communication - gRPC -->
+  <Folder Name="/Chapter03/">
+    <Project Path="Chapter03/AppointmentsApi/AppointmentsApi.csproj" />
+    <Project Path="Chapter03/DocumentsService/DocumentsService.csproj" />
+  </Folder>
+
+  <!-- Chapter 04: Asynchronous Communication - MassTransit/RabbitMQ -->
+  <Folder Name="/Chapter04/">
+    <Project Path="Chapter04/AppointmentsApi/AppointmentsApi.csproj" />
+  </Folder>
+
+  <!-- Chapter 05: Aggregator Pattern -->
+  <Folder Name="/Chapter05/">
+    <Project Path="Chapter05/AppointmentsApi/AppointmentsApi.csproj" />
+    <Project Path="Chapter05/AggregatorService/AggregatorService.csproj" />
+    <Project Path="Chapter05/HealthcareDashboard.UI/HealthcareDashboard.UI.csproj" />
+  </Folder>
+
+  <!-- Chapter 06: CQRS Pattern -->
+  <Folder Name="/Chapter06/">
+    <Project Path="Chapter06/AppointmentsApi/AppointmentsApi.csproj" />
+  </Folder>
+
+  <!-- Chapter 07: Event Sourcing -->
+  <Folder Name="/Chapter07/">
+    <Project Path="Chapter07/AppointmentsApi/AppointmentsApi.csproj" />
+  </Folder>
+
+  <!-- Chapter 09: Saga Pattern - Choreography -->
+  <Folder Name="/Chapter09-Choreography/">
+    <Project Path="Chapter09/Choreography/AppointmentsApi/AppointmentsApi.csproj" />
+    <Project Path="Chapter09/Choreography/PaymentsApi/PaymentsApi.csproj" />
+    <Project Path="Chapter09/Choreography/Shared/Shared.csproj" />
+  </Folder>
+
+  <!-- Chapter 09: Saga Pattern - Orchestrator -->
+  <Folder Name="/Chapter09-Orchestrator/">
+    <Project Path="Chapter09/Orchestrator/AppointmentsApi/AppointmentsApi.csproj" />
+    <Project Path="Chapter09/Orchestrator/PaymentsApi/PaymentsApi.csproj" />
+    <Project Path="Chapter09/Orchestrator/Shared/Shared.csproj" />
+  </Folder>
+
+  <!-- Chapter 10: Resilience Patterns -->
+  <Folder Name="/Chapter10/">
+    <Project Path="Chapter10/AppointmentsApi/AppointmentsApi.csproj" />
+    <Project Path="Chapter10/DocumentsService/DocumentsService.csproj" />
+  </Folder>
+
+  <!-- Chapter 11: API & BFF Gateway Patterns -->
+  <Folder Name="/Chapter11/">
+    <Project Path="Chapter11/AppointmentsApi/AppointmentsApi.csproj" />
+    <Project Path="Chapter11/DocumentsService/DocumentsService.csproj" />
+    <Project Path="Chapter11/Gateway.Ocelot/Gateway.Ocelot.csproj" />
+    <Project Path="Chapter11/Gateway.Yarp/Gateway.Yarp.csproj" />
+  </Folder>
+
+  <!-- Chapter 12: Micro Frontends -->
+  <Folder Name="/Chapter12/">
+    <Project Path="Chapter12/AppointmentsApi/AppointmentsApi.csproj" />
+    <Project Path="Chapter12/DocumentsService/DocumentsService.csproj" />
+    <Project Path="Chapter12/Gateway.Ocelot/Gateway.Ocelot.csproj" />
+    <Project Path="Chapter12/Gateway.Yarp/Gateway.Yarp.csproj" />
+    <Project Path="Chapter12/HealthPortal.Contracts/HealthPortal.Contracts.csproj" />
+    <Project Path="Chapter12/HealthPortal.Frontend/HealthPortal.Frontend.csproj" />
+  </Folder>
+
+  <!-- Chapter 13: Securing Microservices -->
+  <Folder Name="/Chapter13/">
+    <Project Path="Chapter13/AppointmentsApi/AppointmentsApi.csproj" />
+    <Project Path="Chapter13/DocumentsService/DocumentsService.csproj" />
+    <Project Path="Chapter13/Gateway.Ocelot/Gateway.Ocelot.csproj" />
+    <Project Path="Chapter13/Gateway.Yarp/Gateway.Yarp.csproj" />
+    <Project Path="Chapter13/HealthCare.Auth/IdentityServerEf.csproj" />
+    <Project Path="Chapter13/HealthPortal.Contracts/HealthPortal.Contracts.csproj" />
+    <Project Path="Chapter13/HealthPortal.Frontend/HealthPortal.Frontend.csproj" />
+  </Folder>
+
+  <!-- Chapter 14: Container Hosting & Kubernetes -->
+  <Folder Name="/Chapter14/">
+    <Project Path="Chapter14/AppointmentsApi/AppointmentsApi.csproj" />
+    <Project Path="Chapter14/DocumentsService/DocumentsService.csproj" />
+    <Project Path="Chapter14/Gateway.Ocelot/Gateway.Ocelot.csproj" />
+    <Project Path="Chapter14/Gateway.Yarp/Gateway.Yarp.csproj" />
+  </Folder>
+
+  <!-- Chapter 15: Serverless - Azure Functions -->
+  <Folder Name="/Chapter15/">
+    <Project Path="Chapter15/AppointmentBooking/AppointmentBooking.csproj" />
+  </Folder>
+
+  <!-- Chapter 16: Observability & Modern Patterns - Dapr -->
+  <Folder Name="/Chapter16-Dapr/">
+    <Project Path="Chapter16/Appointments.Api.Dapr/Appointments.Api.Dapr.csproj" />
+  </Folder>
+
+  <!-- Chapter 16: Observability & Modern Patterns - Aspire -->
+  <Folder Name="/Chapter16-Aspire/">
+    <Project Path="Chapter16/Aspire/HealthcareAspire/HealthcareAspire.AppHost/HealthcareAspire.AppHost.csproj" />
+    <Project Path="Chapter16/Aspire/HealthcareAspire/HealthcareAspire.ServiceDefaults/HealthcareAspire.ServiceDefaults.csproj" />
+    <Project Path="Chapter16/Aspire/HealthcareAspire/HealthcareAspire.AppointmentsApi/HealthcareAspire.AppointmentsApi.csproj" />
+    <Project Path="Chapter16/Aspire/HealthcareAspire/HealthcareAspire.PatientsApi/HealthcareAspire.PatientsApi.csproj" />
+  </Folder>
+</Solution>

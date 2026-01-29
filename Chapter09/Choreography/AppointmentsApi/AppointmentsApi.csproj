@@ -16,7 +16,6 @@
     </PackageReference>
     <PackageReference Include="MailKit" Version="4.11.0" />
     <PackageReference Include="MassTransit" Version="8.4.0" />
-    <PackageReference Include="MassTransit.AspNetCore" Version="8.4.0" />
     <PackageReference Include="MassTransit.RabbitMQ" Version="8.4.0" />
     <PackageReference Include="mediatr" Version="12.4.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
